@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(113, 113, 134);
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+}
+
+main {
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+}
+li:nth-child(2n+1){
+  background-color:rgb(113, 113, 134) ;
+  color: #f0f0f0;
+}
+li{
+    list-style: none;
+    padding: 1rem
+}
+form{
+    background-color: rgb(113, 113, 134);
+    padding: 2rem;
+}
+h1{
+    text-align: center;
+}

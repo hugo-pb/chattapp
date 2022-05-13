@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatapp</title>
+  </head>
+  <body>
+    <main>
+      <h1>ChatAPP</h1>
+      <ol id="history">
+    
+      </ol>
+      <form action="">
+        <div id="message">
+        <input type="text" id="name" size="2"  placeholder="initials" />
+        <input type="text" id="input2" placeholder="message" />
+        </div>
+        <button>Send</button>
+      </form>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
