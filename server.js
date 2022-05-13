@@ -10,10 +10,9 @@ const io = require("socket.io")(server);
 
 io.on("connection", function (socket) {
   socket.on("message", function (text3) {
-    io.emit("id", text3);
+    io.emit("message", text3);
   });
 });
-
 
 server.listen(8080, function () {
   console.log("Chat server running on PORT:8080");
